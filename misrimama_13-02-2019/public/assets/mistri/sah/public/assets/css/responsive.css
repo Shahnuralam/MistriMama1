@@ -1,0 +1,44 @@
+@media all and (max-width:991px){
+	.select-area {
+		float: none;
+		display: flex;
+		justify-content: center;
+	}
+	.service-item2 {
+		width: 100%;
+		margin-left: 0;
+	}
+}
+@media all and (max-width:767px){
+	.select-area form {
+		display: block;
+		width: 100%;
+	}
+	.select-item {
+		width: 100%;
+	}
+	.submit {
+		width: 100%;
+	}
+}
+@media all and (max-width:576px){
+	.item4 {
+		padding-left: 0;
+		margin-top: 8px;
+	}
+	.service-item 2p {
+		font-size: 16px;
+	}
+	.item3 {
+		margin-top: 4px;
+		padding-left: 0;
+	}
+}
+@media all and (max-width:450px){
+	.service-item2 span{
+		display:block;
+	}
+	.service-item2 {
+		padding-top: 30px;
+	}
+}
